@@ -1,0 +1,30 @@
+{
+  "name": "impact-factory-proposal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build && node scripts/stage-site.mjs",
+    "start": "node scripts/serve-static.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "1.48.0",
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/node": "24.13.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
+  }
+}

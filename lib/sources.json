@@ -1,0 +1,170 @@
+[
+  {
+    "id": "S01",
+    "category": "Official website",
+    "title": "Management, Leadership & Presentation Training — Impact Factory",
+    "url": "https://www.impactfactory.com/",
+    "accessed": "2026-09-25",
+    "note": "Cumulative delegate/company/country figures and 35 years. Publisher-defined figures; no audit methodology supplied."
+  },
+  {
+    "id": "S02",
+    "category": "Official website",
+    "title": "About Us — Impact Factory",
+    "url": "https://www.impactfactory.com/about-impact-factory/",
+    "accessed": "2026-09-25",
+    "note": "Strengths, individual choice, experiential approach and ongoing human support."
+  },
+  {
+    "id": "S03",
+    "category": "Official website",
+    "title": "What We Offer — Impact Factory",
+    "url": "https://www.impactfactory.com/what-we-offer/",
+    "accessed": "2026-09-25",
+    "note": "Offer structure, typical open-course group size and delivery formats."
+  },
+  {
+    "id": "S04",
+    "category": "Official website",
+    "title": "Tailored Training Programmes / Tailored In-House Solutions",
+    "url": "https://www.impactfactory.com/what-we-offer/tailored-in-house-solutions/",
+    "accessed": "2026-09-25",
+    "note": "Tailoring to company/delegate needs. Page includes different delivery tiers; do not generalise two trainers or one group size to every offering."
+  },
+  {
+    "id": "S05",
+    "category": "Official website",
+    "title": "Resources — Impact Factory",
+    "url": "https://www.impactfactory.com/resources/",
+    "accessed": "2026-09-25",
+    "note": "Media-filter inventory. Direct HTML used to cross-check counts; labels can overlap and change. No unique-library total calculated."
+  },
+  {
+    "id": "S06",
+    "category": "LinkedIn",
+    "title": "Impact Factory — LinkedIn",
+    "url": "https://uk.linkedin.com/company/impact-factory",
+    "accessed": "2026-09-25",
+    "note": "Annual-scale claim, 30+ open courses and founding year. Current profile wording, not annual accounts. Correct company is the London training business linked to impactfactory.com."
+  },
+  {
+    "id": "S07",
+    "category": "LinkedIn",
+    "title": "Communication Skills — Impact Factory showcase",
+    "url": "https://uk.linkedin.com/showcase/communicate-with-impact/",
+    "accessed": "2026-09-25",
+    "note": "4,100-individual retrospective and reference to the coming 2026 year. Original post permalink/exact date not established; retained as a qualification to S06, not a replacement verified annual total."
+  },
+  {
+    "id": "S08",
+    "category": "Official website",
+    "title": "Conflict Management and Difficult Conversations Course",
+    "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/",
+    "accessed": "2026-09-25",
+    "note": "Programme relevance, published follow-up materials; £550 in JSON-LD for a 22 October 2026 event. Price is page data, not a completed booking quote."
+  },
+  {
+    "id": "S09",
+    "category": "Official website",
+    "title": "Line Management Course",
+    "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/",
+    "accessed": "2026-09-25",
+    "note": "Follow-up resources; £995 in JSON-LD for a two-day event beginning 27 October 2026. Dynamic tariff qualification applies."
+  },
+  {
+    "id": "S10",
+    "category": "Official website",
+    "title": "Time Management Course",
+    "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/time-management-course/",
+    "accessed": "2026-09-25",
+    "note": "£550 in JSON-LD for a 15 October 2026 event; corroborating sample only."
+  },
+  {
+    "id": "S11",
+    "category": "Official website",
+    "title": "Communicate with Impact — 5-Day Intensive Communication Course",
+    "url": "https://www.impactfactory.com/programmes/communication-skills-training/communicate-with-impact/",
+    "accessed": "2026-09-25",
+    "note": "Duration and £2,750/person excluding VAT; page directs readers to live booking information for current pricing."
+  },
+  {
+    "id": "S12",
+    "category": "Official website",
+    "title": "Private Open Course Booking Form",
+    "url": "https://www.impactfactory.com/private-open-course-booking-form/",
+    "accessed": "2026-09-25",
+    "note": "Published private-course prices and delegate limits in 10.1. Read only; no form was submitted. Differences from embedded course data require quote confirmation."
+  },
+  {
+    "id": "S13",
+    "category": "Official website",
+    "title": "Private Open Courses — Impact Factory",
+    "url": "https://www.impactfactory.com/private-open-courses/",
+    "accessed": "2026-09-25",
+    "note": "A private delivery of an open-course format is distinct from assuming a fully bespoke programme tariff. Page itself did not expose a numeric tariff in the inspected text."
+  },
+  {
+    "id": "S14",
+    "category": "Research",
+    "title": "Taylor, P. J., Russ-Eft, D. F., & Chan, D. W. L. (2005). A meta-analytic review of behavior modeling training",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16060787/",
+    "accessed": "2026-09-25",
+    "note": "*Journal of Applied Psychology*, 90(4), 692–709. DOI: 10.1037/0021-9010.90.4.692. Study count and transfer moderators verified in abstract."
+  },
+  {
+    "id": "S15",
+    "category": "Research",
+    "title": "Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29733621/",
+    "accessed": "2026-09-25",
+    "note": "*Psychological Bulletin*, 144(7), 710–756. DOI: 10.1037/bul0000151. Experiment/participant counts and conditional transfer findings verified."
+  },
+  {
+    "id": "S16",
+    "category": "Research",
+    "title": "Wisniewski, B., Zierer, K., & Hattie, J. (2020). The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full",
+    "accessed": "2026-09-25",
+    "note": "*Frontiers in Psychology*, 10:3087; published 22 January 2020. DOI: 10.3389/fpsyg.2019.03087. Feedback-content and outcome limitations."
+  },
+  {
+    "id": "S17",
+    "category": "Official website",
+    "title": "Open Courses Brochure 2023 — Impact Factory",
+    "url": "https://www.impactfactory.com/wp-content/uploads/2023/06/Open-Courses-Brochure-2023.pdf",
+    "accessed": "2026-09-25",
+    "note": "Search-indexed historical brochure checked. Its country/experience claims differ from the current homepage; do not mix vintages."
+  },
+  {
+    "id": "D01",
+    "category": "Discovery",
+    "title": "Conversations with Abigail Brooks-Daw and Taylor",
+    "url": null,
+    "accessed": "Documented 25 September 2026",
+    "note": "Client-discovery account supplied for the strategy. Includes approximately 90% live delivery and Taylor’s estimated 60–70% tailored revenue share. Not public audited data; no call dates or verbatim transcripts supplied."
+  },
+  {
+    "id": "C01",
+    "category": "Calculations",
+    "title": "Annual-scale illustration",
+    "url": null,
+    "accessed": "25 September 2026",
+    "note": "Annual learner base × assumed adoption × assumed add-on price. One sale per adopted learner. Gross sales only, not a forecast, margin or ROI. The 5,000 baseline is a LinkedIn scale claim; reconcile actual unique learners before budgeting."
+  },
+  {
+    "id": "C02",
+    "category": "Calculations",
+    "title": "Booking-value illustration",
+    "url": null,
+    "accessed": "25 September 2026",
+    "note": "Addition = participants × add-on price. Uplift = addition ÷ base booking value. The requested £3,750/eight-attendee combination is an assumption. The published booking form pairs £3,500 with a maximum-eight option and £3,750 with maximum ten. Quotes require confirmation."
+  },
+  {
+    "id": "P01",
+    "category": "Proposal",
+    "title": "Proposed experience and commercial ranges",
+    "url": null,
+    "accessed": "26 September 2026",
+    "note": "All demos, mock profiles, company figures and prices are illustrative. No roadmap capability is represented as live in MyPath. Pilot £2k–£3.5k; annual layers £9k–£15k, £18k–£25k and £25k–£40k, subject to scope and agreed usage. The expanded 30–50 learner test and three levels would be separately scoped after a small prototype."
+  }
+]
