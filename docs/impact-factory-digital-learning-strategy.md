@@ -1,18 +1,20 @@
 # Impact Factory: extending the human-led learning journey
 
-Director discussion document · 25 September 2026 · Strategy and proposal architecture only
+Director discussion document · Updated 26 September 2026 · Five-page proposal · concept demo and working-pilot options
 
-**Decision proposed:** explore a small, trainer-led design/prototype pilot around one existing programme, then decide whether evidence warrants a managed digital extension.
+**Decision for discussion: Is this worth testing with one programme?**
 
-**Status:** all digital experiences below are proposals. They are not claims about features currently live in MyPath. Commercial ranges are internal recommendations, indicative, subject to scope. No UI has been built.
+**Status:** the latest client brief replaces the long single-page proposal with five focused pages. Sections 13–14 compare the concept demo and working pilot, with separate scopes and a review before further work; no long-term platform prices are proposed; section 17 is the implemented information architecture. Learner/platform/AI features remain proposed custom work, not a live learning service. Noor describes MyPath’s existing content/video/course-asset generation and review workflow as live today; that underlying product is outside this repository and was not independently tested here. Commercial ranges remain indicative, subject to scope. Local use and later Vercel hosting are the current delivery plan.
 
 Evidence labels used throughout:
 
-- **Discovery:** the user-supplied account of the Abigail Brooks-Daw and Taylor conversations. Accepted as client-discovery facts; recordings, transcripts and call dates were not supplied.
-- **Official website:** statements published by Impact Factory, checked on 25 September 2026; not independently audited.
-- **LinkedIn:** Impact Factory's own company profile or posts, separately identified from its website.
-- **Research:** published learning-science evidence, with limits on its applicability.
-- **Proposal / assumption / calculation:** our recommendations and arithmetic, not established client results or commitments.
+- **VERIFIED PUBLIC FACT:** a statement verified in an official website, LinkedIn profile/post or research source. Publisher and access date remain explicit; verification is not an independent business audit.
+- **DISCOVERY-CALL FACT:** the supplied account of Abigail and Taylor's conversations. Includes estimates; recordings, transcripts and call dates were not supplied.
+- **ILLUSTRATIVE CALCULATION:** arithmetic using stated assumptions; not a forecast, ROI or evidence of demand.
+- **PROPOSED CONCEPT:** suggested journeys, fictional examples, pilot scope, illustrative activity schedules and operating choices.
+- **INDICATIVE ESTIMATE:** working commercial ranges and delivery timelines, subject to scope and approval; not confirmed quotes or delivery commitments.
+
+Noor's current MyPath capability description is separate private product context supplied in this audit request, not a public fact or a discovery-call quotation. Section/step numbers, source IDs and publication dates are identifiers rather than business metrics.
 
 Source IDs refer to the titled, dated links in section 16. Public figures are reconciled in section 10 before being used commercially.
 
@@ -20,7 +22,7 @@ Source IDs refer to the titled, dated links in section 16. Public figures are re
 
 Impact Factory's value sits in the human training experience: attention to the individual, realistic situations, experimentation, confidence and practical changes people can make at work. Its public offer spans open courses, tailored corporate training, intensive programmes and coaching. Its About page emphasises strengths and personal choice. A digital extension should carry that approach into the time before and after live delivery. [S02 — About Us](https://www.impactfactory.com/about-impact-factory/); [S03 — What We Offer](https://www.impactfactory.com/what-we-offer/).
 
-The discovery calls describe an existing support system of resource webpages, email, HubSpot workflows, Zoom/Teams and personal follow-up. The gap is continuity: preparation, training, follow-up and practice are not held together in a formal learner journey. In corporate programmes, a resource link may pass through an L&D buyer or manager, leaving Impact Factory without a reliable direct touchpoint with the learner. This is a relationship and learning-design problem as much as a technology problem. [D01]
+The discovery calls describe an existing support system of resource webpages, email, HubSpot workflows, Zoom/Teams and personal follow-up. The possible gap is continuity: the calls describe preparation, training and follow-up across several tools, without a formal learner journey platform. In corporate programmes, a resource link may pass through an L&D buyer or manager, leaving Impact Factory without a reliable direct touchpoint with the learner. This is a relationship and learning-design problem as much as a technology problem. [D01]
 
 The proposed journey is:
 
@@ -28,7 +30,7 @@ The proposed journey is:
 
 **HUMAN TRAINER REMAINS CENTRAL.** A lightweight learner and company platform would remember the journey underneath these stages. It would help learners arrive prepared, revisit a useful idea, rehearse safely, prepare for a real situation and reconnect with a trainer when appropriate.
 
-Start with one Difficult Conversations journey, using an Impact Factory-approved programme and scenario. Test interactive preparation, several short reinforcement activities and one bounded roleplay. Show the digital-coach concept through a guided prototype. A persistent coach, voice roleplay and wider integrations would follow only if quality, demand and operating evidence support them.
+Start with one programme, chosen and approved by Impact Factory. A £2,500–£3,500 concept demo over 2–3 weeks could make the idea reviewable. A separately scoped £7,500–£12,000 working pilot over around two months could test it with learners. Agree the scope and useful outcomes at the start, then review before any further investment. Persistent coaching and a broader LMS rollout would follow only if useful evidence supports them. Both ranges and timelines are indicative, subject to scope.
 
 The business opportunity is to extend the usefulness and duration of an existing relationship. A paid extension is one possible route, alongside inclusion in tailored programme packages. The financial illustrations show scale and booking arithmetic; they do not establish demand, profitability or return on investment. MyPath's proposed role is to operate and develop the technology while Impact Factory retains the methodology, client relationship and learning-quality decisions.
 
@@ -75,9 +77,9 @@ Open and tailored work should share a journey engine but retain their different 
 
 ## 4. Core gap
 
-**Impact Factory has the human expertise and material; it lacks a consistent, permissioned connection between the learner's intention, training experience, practice and application at work.** This is our synthesis of discovery, not a measured finding about current training effectiveness.
+**One hypothesis is that a more connected journey could help Impact Factory maintain the learner relationship before and after live training.** This interpretation comes from discovery, remains open to correction and says nothing about the effectiveness of its current training.
 
-Four breaks matter:
+Four points to explore:
 
 1. **Before the room:** the trainer may not have a concise, current account of each learner's goal and situation.
 2. **After the room:** receiving a resource link does not establish that someone revisited, retrieved or tried anything.
@@ -149,6 +151,8 @@ The production feedback must be grounded in approved Impact Factory material, li
 
 After the response: “Write the first sentence you would actually use.” Save only the information needed for the agreed journey. If the learner struggles, offer a recap and another attempt. If they feel ready, offer the roleplay or a small workplace action. Trainers can pause scheduled prompts or replace them with a personal message.
 
+Smart nudges could also offer trainer-approved video recaps, personalised mini-lessons or a reminder to revisit practice. Personalisation would use course, goals and permitted activity responses; it does not justify uncontrolled generated teaching content. Reminders are invitations, not proof of learning. [P02]
+
 ### PRACTISE: roleplay first, feedback afterwards
 
 Example: following Difficult Conversations, the learner practises with **Alex, a fictional employee who has missed deadlines**. The learner speaks or types naturally; a text version should be available even if voice is later introduced.
@@ -173,7 +177,7 @@ Candidate feedback criteria for trainers to adapt: clarity about the situation; 
 
 Feedback should identify a strength, show the relevant words from the exchange, offer a possible alternative and suggest one next practice goal. It should allow multiple effective styles. Avoid personality labels, definitive claims about emotional state, employment judgements and public leaderboards. “Not enough evidence in this exchange” is a valid result.
 
-Difficulty progression is part of the wider hypothesis. The initial paid pilot should use one approved scenario at Level 1 unless the final scope explicitly includes more.
+Difficulty progression is part of the wider hypothesis. The first working pilot should use one approved scenario at Level 1 unless the final scope explicitly includes more. The proposal can illustrate progression without implying all levels are included in the pilot.
 
 ### APPLY: an Impact Factory Digital Coach at the moment of need
 
@@ -189,9 +193,28 @@ It should confirm whether remembered context is still relevant and let the learn
 
 The coach would extend access to Impact Factory's approach. Human trainers remain responsible for the methodology and available for deeper support. Show an explicit route to request that support, with an agreed response process. Complex employment disputes or situations outside the approved learning scope should lead to the appropriate human contact rather than confident advice from the system.
 
-For the initial prototype, demonstrate these choices with fictional, prewritten content. Persistent memory and open-ended coaching require a later quality and privacy decision.
+For this proposal, demonstrate these choices with fictional, prewritten content. Persistent memory and open-ended coaching require a later quality and privacy decision.
 
-## 7. Learner-platform concept
+### AI persona, avatar and voice options
+
+Both proposed AI roleplay and the Digital Coach could be live, conversational personas: text, spoken interaction or an on-screen avatar. An approved licensed voice/character is an option; an instructor’s likeness and voice could be used only with explicit consent, agreed rights, approval and governance. These are optional presentation choices, not a promise to clone a trainer in the pilot. The roleplay actor still stays in character until the session ends; coaching and evaluation remain separate. Test latency, conversation quality, accessibility and costs before agreeing a voice/avatar pilot scope. The persistent coach remains outside the first pilot unless explicitly rescoped. The webpage contains scripted examples and format previews, with no generated speech, avatar video or live AI. [P02]
+
+## 7. Learner-platform concept: a lightweight LMS
+
+**Working direction:** an Impact Factory-branded learning hub on a suitable LMS foundation, with custom reinforcement and AI experiences connected where useful. One account could carry a learner across enrolled company and public courses; this does not grant access to every course automatically. Keep the direct next activity prominent.
+
+Flow: enrol in a course/cohort → prepare and attend live training → receive approved reinforcement and practice → review and continue with a trainer or another programme.
+
+| Audience | Useful proposed LMS functions | Potential benefit |
+| --- | --- | --- |
+| Learner | Enrolled-course home, session details, approved videos/resources, next lesson, practice and personal history | A familiar place to return across programmes. |
+| Company / L&D | Invitations, cohort allocation, enrolment/attendance and permissioned activity reporting by course | A view across its learning investment without private conversations. |
+| Impact Factory team | Shared preparation, approved content versions, course templates, follow-up scheduling and an approval queue | Reuse the journey structure while retaining programme and trainer judgement. |
+
+Existing LMS foundations warrant evaluation before rebuilding enrolment, access and completion tracking. Moodle's official [LMS features](https://docs.moodle.org/en/Features) and [Workplace multi-tenancy documentation](https://docs.moodle.org/en/Multi-tenancy) illustrate relevant patterns. Workplace is a distinct, partner-delivered product; do not assume its company-separation features are part of ordinary Moodle LMS. This is a design inference, not a vendor selection. Check company isolation, integration effort, usability, support ownership, licensing and total cost during pilot design. No new vendor purchase or deployment is proposed here. [S17–S18]
+
+The company example can filter two fictional programmes. Difficult Conversations has 20 enrolments / 18 attendances / 15 activations / 12 reinforcement completions / 9 practice completions. Presentation Skills has 12 / 11 / 10 / 8 / 6. Combined totals are 32 / 29 / 25 / 20 / 15, counting course enrolments, not unique people. These values are **PROPOSED CONCEPT** data, not results. One person on both courses counts twice. The pilot still starts with one programme.
+
 
 The platform matters because each activity can otherwise become another disconnected link. A small persistent record allows the learner to resume, lets relevant content follow their choices, and gives authorised staff enough context to support the journey.
 
@@ -256,7 +279,7 @@ Impact Factory already provides follow-up resources and human access. Any paid e
 
 ### 10.1 Public business anchors: verification and corrections
 
-All access dates below are **25 September 2026**. “Verified” means verified as a publisher's statement, not independently substantiated business performance.
+The public sources below were rechecked on **26 September 2026**. “Verified” means verified as a publisher's statement, not independently substantiated business performance.
 
 | Requested anchor | Research finding and permitted use | Evidence |
 | --- | --- | --- |
@@ -270,12 +293,12 @@ All access dates below are **25 September 2026**. “Verified” means verified 
 | Open groups around 6–8 delegates | Official offer describes this as the typical small-group format. It is not a universal cap across every product. | Official website [S03](https://www.impactfactory.com/what-we-offer/). |
 | One-day private course £3,750 + VAT for up to eight | **Exact pairing not verified.** The booking form lists £3,500 + VAT for a one-day maximum-eight option and £3,750 + VAT for maximum ten. Preserve the requested £3,750/eight-attendee model as an assumption. | Official booking form [S12](https://www.impactfactory.com/private-open-course-booking-form/). |
 | Two-day private programmes £7,000–£7,500 + VAT | Both prices are displayed on the form: £7,000 for listed maximum-eight courses; £7,500 for listed maximum-ten courses and a separate eight-person Presentation Skills option. These are private open-course examples, not all bespoke programme prices. | Official booking form [S12](https://www.impactfactory.com/private-open-course-booking-form/). |
-| Public management courses about £550–£1,100 | Official page structured data gives £550 for dated Conflict Management and Time Management events and £995 for dated two-day Line Management events. The proposed £1,100 upper endpoint was not verified; use the sampled prices with that limitation. | Official HTML/JSON-LD [S08](https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/), [S09](https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/), [S10](https://www.impactfactory.com/programmes/management-skills-training/open-courses/time-management-course/). |
+| Public management course pricing | A current selectable tariff was not established in the rendered course pages during this audit. Previous structured-data prices and the suggested upper endpoint are not retained as current pricing claims. Obtain a programme quote. | Official course references S08, S09 and S10, linked in section 16. |
 | Five-day intensive around £2,750/person | Verified for Communicate with Impact: £2,750 per person excluding VAT. | Official website [S11](https://www.impactfactory.com/programmes/communication-skills-training/communicate-with-impact/). |
 | Hundreds of resources, comparatively few videos | Direct page inspection showed media filters: Article 339, Blog 75, Tips 67, Podcast 29 and Video 2. Categories can overlap; do not sum into a unique-content count. Video 2 describes this filter, not all videos owned or linked by Impact Factory. | Official Resources page [S05](https://www.impactfactory.com/resources/). |
 | Existing post-course webpages | Verified on sampled course pages, including handouts, PDFs, reading and video links. This does not establish a formal LMS or a universal workflow across tailored work. | Official course pages [S08](https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/) and [S09](https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/). |
 
-**Pricing evidence limitation:** the extracted booking form and course-page data do not fully reconcile. Course structured data also contains placeholder-date entries in 2035 with different amounts (for example, £3,995 and £7,560). Those entries were not treated as verified private-course quotes. Dynamic page text exposes unresolved placeholders and conditional messages, so neither availability nor a complete current tariff can be inferred from it. Confirm an actual programme quote before issuing a commercial offer. The form values above are accurately attributed published examples.
+**Pricing evidence limitation:** the published booking form is an attributed price example, not a confirmed quote. Course pages contain dynamic data and conditional booking messages; raw HTML does not establish what is currently bookable. Rendered-page checks did not establish public tariffs for the sampled management courses. Confirm the programme, delivery format, availability, entitlement and price with Impact Factory.
 
 ### 10.2 Annual learner-scale illustration
 
@@ -320,11 +343,11 @@ Both illustrations assume all eight learners buy at the stated price, with no di
 
 ### 10.4 Costs, unit economics and other assumptions
 
-The annual technology ranges in section 14 are a potential **cost to Impact Factory**. The learner prices above are hypothetical **sales prices to its customers**. They are different commercial relationships and should never be combined into a claim about margin without a cost model.
+The demo and pilot estimates in section 14 are potential **costs to Impact Factory**; any future service price would be agreed after reviewing results. The learner prices above are hypothetical **sales prices to its customers**. They are different commercial relationships and should never be combined into a claim about margin without a cost model.
 
 Use this structure after obtaining pilot data:
 
-`Incremental contribution = collected digital sales − annual service fee − AI/voice usage − hosting/support not included in the fee − content/trainer review time − onboarding/integration costs − attributable selling/admin costs`
+`Incremental contribution = collected digital sales − agreed technology/service costs − AI/voice usage − hosting/support not included in the fee − content/trainer review time − onboarding/integration costs − attributable selling/admin costs`
 
 `Indicative break-even learners = fixed incremental costs ÷ (net realised price per learner − variable cost per learner)`
 
@@ -332,10 +355,10 @@ The second calculation is meaningful only when the denominator is positive and t
 
 | Additional assumption | How to resolve it |
 | --- | --- |
-| A useful journey can fit a 30-day pilot window. | Test relevance and actual activity timing; 60/90 days are later options. |
-| Learners will accept individual invitations and private practice. | Test with an agreed cohort, including those who do not activate. |
+| A useful follow-up schedule can fit around a programme. | Agree the learner-use window separately from the build schedule. Proposed 30/60/90-day journeys are options to test, not fixed delivery commitments. |
+| Learners might accept individual invitations and private practice. | Test with an agreed cohort, including those who do not activate. |
 | Approved content can be adapted economically. | Record selection, drafting, rights-checking, trainer-review and revision time. |
-| A small cohort of approximately 6–8 is feasible. | Select with Impact Factory; this is a proposed test group, not statistical power. |
+| A working pilot of approximately 30–50 learners can span suitable small cohorts. | Agree cohort sizes with Impact Factory; this is a proposed test audience, not statistical power or one large workshop. |
 | MyPath could manage the technical service. | Validate capability and responsibilities during scoping; do not assume existing product readiness. |
 | The indicative ranges can support the desired service. | Produce a scoped cost and delivery plan before a quote. |
 
@@ -377,69 +400,58 @@ Data protection roles, lawful basis, retention, employer disclosure, hosting loc
 
 ## 13. Pilot recommendation
 
-**Recommend a Design/Prototype Pilot: one programme, one journey, one scenario and one small test group.** Prefer a forthcoming tailored programme with a cooperative buyer because it tests the learner handoff and operating model. An open-course cohort is a viable fallback if corporate coordination delays access.
+**One programme, two clearly scoped ways to begin.** Start with a concept demo to judge the experience, or scope a working pilot directly if the requirements are sufficiently clear. The two options are separate decisions, not an automatic sequence of fees. Difficult Conversations remains illustrative; Impact Factory chooses the programme and approves the material. [P01–P02]
 
-Use Difficult Conversations as the working topic, subject to Impact Factory's selection of the actual programme and approved material. The public course provides a relevant subject anchor; this does not assume the exact live syllabus or a confirmed forthcoming booking. [S08](https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/).
+### Concept demo / MVP — review the idea
 
-### Scope to make the idea reviewable
+Indicative: **£2,500–£3,500 over 2–3 weeks**, after scope/content approval. Here MVP means a bounded concept demonstration, not a production learner platform.
 
-| Included in the proposed pilot | Boundary |
-| --- | --- |
-| One interactive preparation flow with a goal and scenario choice. | A small number of trainer-approved questions; no broad diagnostic assessment. |
-| Three short reinforcement activities across approximately 30 days. | Text/question formats first; existing approved video only if available and licensed. |
-| One Alex/missed-deadlines scenario at Level 1. | Bounded text roleplay and separate feedback; learner-facing use only after trainer quality approval. |
-| A guided APPLY prototype. | Fictional context showing review/plan/practise; no production persistent coach. |
-| A minimal roster, activity record and next step. | Controlled pilot environment; no full LMS migration or booking-system rebuild. |
-| A sample corporate participation report. | Appropriate counts/status only; no individual conversations or AI performance scores. |
-| An operating log and evidence review. | Capture learner response, quality issues, support time and delivery costs. |
+Scope: map one programme’s preparation, live session and follow-up; create clickable learner and company screens; show one recap or mini-lesson with a smart-nudge example; illustrate one scripted roleplay, separate feedback and possible voice/avatar formats. Deliver a reviewable demo and an outline for a working pilot, shaped by trainer feedback.
 
-Aim for approximately 6–8 willing learners and an identified trainer reviewer. At the indicative pilot budget, reuse approved content and simple interactions; bespoke voice, large-scale content production, production integrations, multiple difficulty levels and a full dashboard are outside the starting scope. If a safe functioning roleplay cannot fit the agreed budget, explicitly narrow the deliverable to a facilitated prototype test before contracting; do not quietly represent a scripted prototype as production AI.
+Production AI, integrations and real learner data are outside the demo scope. Review the experience with Impact Factory before deciding whether it warrants a learner pilot.
 
-### Sequence and responsibilities
+### Working pilot — test with learners
 
-1. **Define:** Impact Factory selects the programme, buyer, learning objective and reviewer. MyPath maps the minimum service and costs. Agree invitation, data handling, success criteria and a workload allowance.
-2. **Prepare:** jointly create the journey and approval rubric; MyPath assembles the prototype and report example. Impact Factory approves the content and behaviour.
-3. **Test with trainers:** inspect ordinary, difficult and out-of-scope exchanges; check simulation/evaluation separation, feedback evidence and access boundaries. Resolve critical issues before learner use.
-4. **Run the learner journey:** invite individually, gather preparation, retain live human training, then deliver the agreed follow-up activities. Track non-use and technical problems as evidence.
-5. **Review:** discuss the evidence with the trainer, learners and buyer; choose stop, revise or a separately scoped rollout. Agree deletion or permitted continuation of pilot records.
+Indicative: **£7,500–£12,000 over around two months**, after scope/content approval. Agree build, learner-use and follow-up windows in the schedule.
 
-The learner window is approximately 30 days around follow-up, with preparation before the live session. Design, approval and procurement time are additional; no launch date is promised before access and scope are agreed.
+Proposed scope: one programme; approximately 30–50 learners across suitable small cohorts; simple learner access; preparation; approved content and smart follow-up; one live AI roleplay scenario with separate feedback; basic learner records and company reporting; trainer approval and a named support owner. Agree text, voice or avatar scope and any likeness permissions before quoting; every format is not assumed to be included. A full course rollout and persistent open-ended Digital Coach are outside this scope.
 
-### What would count as useful evidence?
+Before learner use, approve the screens, content, invitation route and feedback criteria. Agree data handling, total budget, usage allowance, support and escalation. Define useful outcomes together at the start; do not invent acceptance targets. Complexity, LMS choice, content readiness, integrations and AI/voice/avatar use can change the quote.
 
-| Question | Measure and denominator | Interpretation |
+### Evidence to review
+
+| Question | Useful evidence | Limit |
 | --- | --- | --- |
-| Did learners reach the journey? | Successful invitations / eligible invited; activated learners / successfully invited. | Separate delivery problems from lack of interest. |
-| Was BEFORE useful? | Prep completions / invited learners, plus trainer review of usefulness. | Completion alone does not show better live training. |
-| Did reinforcement prompt action? | Completions / activities due; unique participating learners / enrolled learners; response patterns. | Count completed interactions, not just messages or clicks. |
-| Did learners choose practice again? | Learners with a second completed attempt / learners who completed a first attempt. | Report raw counts; small samples are unstable. |
-| Was the feedback acceptable? | Trainer review of the pilot's permitted evaluation samples against the approved criteria; count critical and minor defects. | AI self-scoring is not the quality benchmark. |
-| Was anything used at work? | Learner-reported attempts and barriers / respondents, alongside the response rate. | Self-report is directional evidence, not an independently measured outcome. |
-| Could the team operate it? | Setup hours, recurring minutes, support incidents and cost per active learner/session. | Include trainer and Impact Factory coordination time, not only hosting costs. |
-| Does the buyer value an extension? | Buyer interview and a specific priced follow-on discussion after the experience. | Interest is weaker evidence than a paid commitment. |
+| Did learners reach the journey? | Delivered invitations / eligible invited; activated / successfully invited. | Separate access problems from lack of interest. |
+| Was preparation useful? | Completions / invited; trainer feedback on relevance. | Completion alone is not better learning. |
+| Did people return? | Completed activities / due; unique participating learners / enrolled; repeat practice counts. | Report denominators and reasons for non-use. |
+| Was feedback appropriate? | Trainer review against approved criteria; critical/minor issue counts. | AI self-scoring is not the benchmark. |
+| Was anything used at work? | Learner-reported attempts and barriers, with response rate. | Directional self-report, not causal outcome proof. |
+| Could the team operate it? | Setup/review/support time, incidents, usage and delivery costs. | Include Impact Factory coordination and trainer time. |
+| Would buyers value it? | Buyer discussion after the experience, including a specific priced follow-on option. | Interest is not a paid commitment. |
 
-Suggested decision rules, to be confirmed before invitations: for an eight-person test, seek at least six activations and at least four learners completing two of the three reinforcement activities and one practice. These are **proposed feasibility thresholds, not forecasts or scientific benchmarks**. Report reasons for non-use and do not optimise the result by dropping non-users from the denominator.
+Agree useful measures and a staff-time allowance before launch. No activation, completion or outcome targets are invented here. Stop, revise or continue based on usefulness, trainer quality, learner/client response and manageable cost/workload.
 
-Mandatory release/rollout gates are stronger than the participation threshold: no unresolved critical privacy or AI-quality issue; trainer approval of the experience; a named operator; measured workload within the allowance agreed before launch; and a buyer/learner reason to continue. Failure on a gate means revise or stop, even if activity counts look good.
+A small willing sample cannot establish causal effectiveness or market-wide demand. Any later comparison with current follow-up needs agreed assessments and denominators.
 
-A small willing cohort cannot establish causal effectiveness or market-wide demand. If feasibility is demonstrated, a later evaluation can compare against the existing follow-up journey using agreed assessments, participation denominators and workplace follow-up. No improvement percentage should be claimed from this first pilot.
+### Decide after the results
+
+Review learner use, trainer confidence in content/feedback, corporate client value and operating effort against the agreed outcomes. Refine, extend or stop. If the pilot gives Impact Factory what it needs, define the next scope, service responsibilities and price together. No long-term price or rollout commitment is requested now.
 
 ## 14. Indicative commercial model
 
-Pricing follows the scope and evidence. The preferred sequence is **pilot → evidence → rollout**.
+**Concept demo or working pilot → review → agree any further work.** All amounts and timelines are **INDICATIVE ESTIMATES**, subject to scope and a written quote.
 
-The following are **internal recommended ranges, indicative, subject to scope**. They are not confirmed quotes, validated costs or existing MyPath product tiers. Proposed annual options are alternatives for the agreed service level, not fees to add together.
-
-| Option | Indicative range | Proposed service boundary | Main variables before quotation |
+| Proposed engagement | Working estimate | Timeline | Boundary |
 | --- | --- | --- | --- |
-| **1. Design/Prototype Pilot** | **£2,000–£3,500**, one-off | One programme, one journey, one scenario, small test group and findings review. | Reuse of content, prototype depth, reviewer availability and limited pilot usage allowance. |
-| **2. Reinforce Layer** | **Roughly £9,000–£15,000/year + agreed usage** | Preparation, brief reinforcement activities, basic learner journey and participation reporting. | Number of programmes, active learners, content updates and operating support. |
-| **3. AI Practice Layer** | **Roughly £18,000–£25,000/year + usage** | An agreed reinforcement base plus bounded roleplay, separate feedback and quality monitoring. | Scenarios, text/voice, sessions, evaluation requirements and support volume. |
-| **4. Full Digital Coach / managed platform** | **Roughly £25,000–£40,000/year + usage/integrations** | An agreed broader journey, persistent coaching context, company reporting and managed operations. | Personalisation, integrations, service levels, data requirements and content breadth. |
+| Concept demo / MVP | £2,500–£3,500, excluding VAT | 2–3 weeks after scope/content approval | Clickable journey and bounded content/practice illustrations; no production learner service. |
+| Working pilot | £7,500–£12,000, excluding VAT | Around two months after scope/content approval | One programme, suitable small cohorts, bounded live AI practice and basic records/reporting; agreed total cap and allowances. |
 
-For planning, treat these ranges as excluding VAT; the final quote must state tax treatment, setup/migration costs, integrations, content production, support hours and usage allowances explicitly. Do not assume unlimited AI or voice usage, unlimited programme creation, ongoing trainer time or enterprise service levels are included. The pilot should have a total spending cap and no automatic annual commitment. Any credit of pilot fees against rollout is a negotiation item, not a promise.
+Moving from demo to pilot requires a separate agreement on scope and total cost. No fee credit, combined-package price or automatic commitment is assumed.
 
-Potential customer packaging for Impact Factory to test: a defined-period per-learner add-on; an enhanced corporate programme package; or access between sessions in a longer programme. Choose based on buyer value and measured costs. Do not lead the director conversation with subscription tiers or present the £50/£100/£200 modelling assumptions as recommended retail prices.
+No longer-term build, annual or monthly platform price is presented. Any later work is separately scoped after evidence and an explicit decision.
+
+The pilot quote must state content production, LMS configuration, AI/voice/avatar setup and usage, hosting, integrations, support, taxes and exclusions. Instructor likeness licensing or production is not assumed to be included. No unlimited usage, revisions or trainer time is implied. The £50/£100/£200 learner-extension calculator prices remain hypothetical customer sales assumptions, separate from technology/service costs; they are not forecasts or agreed retail prices.
 
 ## 15. Partnership model
 
@@ -457,94 +469,68 @@ Impact Factory should remain the recognisable learning provider and decision-mak
 
 **What “MyPath handles the technology” would mean in practice:** Impact Factory supplies an approved cohort and content decisions; MyPath configures the journey, manages invitations/access issues, maintains the service, monitors usage and reports exceptions. Learning questions and judgement stay with an Impact Factory contact. Changes to content or feedback behaviour return to that contact for approval.
 
-This reduces the need for Impact Factory to administer infrastructure, but does not remove content ownership, quality review or learner care. Agree a single service contact, response hours, escalation route, change allowance, approval turnaround and usage cap. Record the time both teams spend during the pilot before defining an annual managed-service commitment.
+This could reduce the need for Impact Factory to administer infrastructure, but does not remove content ownership, quality review or learner care. Agree a single service contact, response hours, escalation route, change allowance, approval turnaround and usage cap. Record the time both teams spend during the pilot before deciding any further service agreement.
 
 Before production, settle ownership/licensing of Impact Factory material and adaptations, rights in software, learner-data responsibilities, supplier/model changes, commercial exit and export. Do not assume exclusivity, transfer of methodology IP or permission to train on client conversations.
 
 ## 16. Source register
 
-All public sources were accessed **25 September 2026**. Access date is distinct from publication date. Website and LinkedIn statistics remain publisher claims. LinkedIn relative timestamps were not converted into invented exact dates. The register includes material limitations and research checked but not used as a current business anchor.
+Public sources retained below were rechecked **26 September 2026**. Access date is distinct from publication date. Website and LinkedIn statistics remain publisher claims. LinkedIn relative timestamps were not converted into invented exact dates. The register includes material limitations and research checked but not used as a current business anchor.
 
 | ID / type | Source title and URL | Access date | Supports / qualification |
 | --- | --- | --- | --- |
-| S01 · Official website | [Management, Leadership & Presentation Training — Impact Factory](https://www.impactfactory.com/) | 2026-09-25 | Cumulative delegate/company/country figures and 35 years. Publisher-defined figures; no audit methodology supplied. |
-| S02 · Official website | [About Us — Impact Factory](https://www.impactfactory.com/about-impact-factory/) | 2026-09-25 | Strengths, individual choice, experiential approach and ongoing human support. |
-| S03 · Official website | [What We Offer — Impact Factory](https://www.impactfactory.com/what-we-offer/) | 2026-09-25 | Offer structure, typical open-course group size and delivery formats. |
-| S04 · Official website | [Tailored Training Programmes / Tailored In-House Solutions](https://www.impactfactory.com/what-we-offer/tailored-in-house-solutions/) | 2026-09-25 | Tailoring to company/delegate needs. Page includes different delivery tiers; do not generalise two trainers or one group size to every offering. |
-| S05 · Official website | [Resources — Impact Factory](https://www.impactfactory.com/resources/) | 2026-09-25 | Media-filter inventory. Direct HTML used to cross-check counts; labels can overlap and change. No unique-library total calculated. |
-| S06 · LinkedIn company profile | [Impact Factory — LinkedIn](https://uk.linkedin.com/company/impact-factory) | 2026-09-25 | Annual-scale claim, 30+ open courses and founding year. Current profile wording, not annual accounts. Correct company is the London training business linked to impactfactory.com. |
-| S07 · LinkedIn company post, visible as showcase repost | [Communication Skills — Impact Factory showcase](https://uk.linkedin.com/showcase/communicate-with-impact/) | 2026-09-25 | 4,100-individual retrospective and reference to the coming 2026 year. Original post permalink/exact date not established; retained as a qualification to S06, not a replacement verified annual total. |
-| S08 · Official course page and structured data | [Conflict Management and Difficult Conversations Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/) | 2026-09-25 | Programme relevance, published follow-up materials; £550 in JSON-LD for a 22 October 2026 event. Price is page data, not a completed booking quote. |
-| S09 · Official course page and structured data | [Line Management Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/) | 2026-09-25 | Follow-up resources; £995 in JSON-LD for a two-day event beginning 27 October 2026. Dynamic tariff qualification applies. |
-| S10 · Official course page and structured data | [Time Management Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/time-management-course/) | 2026-09-25 | £550 in JSON-LD for a 15 October 2026 event; corroborating sample only. |
-| S11 · Official course page | [Communicate with Impact — 5-Day Intensive Communication Course](https://www.impactfactory.com/programmes/communication-skills-training/communicate-with-impact/) | 2026-09-25 | Duration and £2,750/person excluding VAT; page directs readers to live booking information for current pricing. |
-| S12 · Official booking form | [Private Open Course Booking Form](https://www.impactfactory.com/private-open-course-booking-form/) | 2026-09-25 | Published private-course prices and delegate limits in 10.1. Read only; no form was submitted. Differences from embedded course data require quote confirmation. |
-| S13 · Official website | [Private Open Courses — Impact Factory](https://www.impactfactory.com/private-open-courses/) | 2026-09-25 | A private delivery of an open-course format is distinct from assuming a fully bespoke programme tariff. Page itself did not expose a numeric tariff in the inspected text. |
-| S14 · Research; original article abstract via PubMed | [Taylor, P. J., Russ-Eft, D. F., & Chan, D. W. L. (2005). A meta-analytic review of behavior modeling training](https://pubmed.ncbi.nlm.nih.gov/16060787/) | 2026-09-25 | *Journal of Applied Psychology*, 90(4), 692–709. DOI: 10.1037/0021-9010.90.4.692. Study count and transfer moderators verified in abstract. |
-| S15 · Research; original article abstract via PubMed | [Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis](https://pubmed.ncbi.nlm.nih.gov/29733621/) | 2026-09-25 | *Psychological Bulletin*, 144(7), 710–756. DOI: 10.1037/bul0000151. Experiment/participant counts and conditional transfer findings verified. |
-| S16 · Research; publisher full text | [Wisniewski, B., Zierer, K., & Hattie, J. (2020). The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full) | 2026-09-25 | *Frontiers in Psychology*, 10:3087; published 22 January 2020. DOI: 10.3389/fpsyg.2019.03087. Feedback-content and outcome limitations. |
-| S17 · Historical official document; not used as current anchor | [Open Courses Brochure 2023 — Impact Factory](https://www.impactfactory.com/wp-content/uploads/2023/06/Open-Courses-Brochure-2023.pdf) | 2026-09-25 | Search-indexed historical brochure checked. Its country/experience claims differ from the current homepage; do not mix vintages. |
-| D01 · Client discovery supplied by user | Abigail Brooks-Daw and Taylor discovery-call account in the task brief; no public URL | Received in this task; documented 2026-09-25 | All 16 supplied discovery points, including operating tools and approximate delivery/revenue mix. Call dates/transcripts not supplied; not verbatim quotations. |
-| C01 · Our calculations | Section 10.2; no external URL | Calculated 2026-09-25 | Annual-scale arithmetic using S06 as a qualified anchor and brief-supplied scenario inputs. |
-| C02 · Our calculations | Section 10.3; no external URL | Calculated 2026-09-25 | Requested assumed booking example plus separately attributed form-price comparison. |
-| P01 · Internal proposal assumptions | Sections 5–15 and 17; no external URL | Proposed 2026-09-25 | Product design, pilot thresholds and commercial ranges. No assertion of existing MyPath functionality or client commitment. |
+| S01 · Official website | [Management, Leadership & Presentation Training — Impact Factory](https://www.impactfactory.com/) | 2026-09-26 | Cumulative delegate/company/country figures and 35 years. Publisher-defined figures; no audit methodology supplied. |
+| S02 · Official website | [About Us — Impact Factory](https://www.impactfactory.com/about-impact-factory/) | 2026-09-26 | Strengths, individual choice, experiential approach and ongoing human support. |
+| S03 · Official website | [What We Offer — Impact Factory](https://www.impactfactory.com/what-we-offer/) | 2026-09-26 | Offer structure, typical open-course group size and delivery formats. |
+| S04 · Official website | [Tailored Training Programmes / Tailored In-House Solutions](https://www.impactfactory.com/what-we-offer/tailored-in-house-solutions/) | 2026-09-26 | Tailoring to company/delegate needs. Page includes different delivery tiers; do not generalise two trainers or one group size to every offering. |
+| S05 · Official website | [Resources — Impact Factory](https://www.impactfactory.com/resources/) | 2026-09-26 | Media-filter inventory. Direct HTML used to cross-check counts; labels can overlap and change. No unique-library total calculated. |
+| S06 · LinkedIn company profile | [Impact Factory — LinkedIn](https://uk.linkedin.com/company/impact-factory) | 2026-09-26 | Annual-scale claim, 30+ open courses and founding year. Current profile wording, not annual accounts. Correct company is the London training business linked to impactfactory.com. |
+| S07 · LinkedIn company post, visible as showcase repost | [Communication Skills — Impact Factory showcase](https://uk.linkedin.com/showcase/communicate-with-impact/) | 2026-09-26 | 4,100-individual retrospective and reference to the coming 2026 year. Original post permalink/exact date not established; retained as a qualification to S06, not a replacement verified annual total. |
+| S08 · Official course reference | [Conflict Management and Difficult Conversations Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/) | 2026-09-26 | Current official course page, checked as a subject and delivery reference. No current selectable public tariff was established in the rendered page during this audit; do not infer availability from hidden conditional booking messages. Confirm an actual programme quote. The page describes trainer access and post-course resources including handouts, PDFs, reading and video links. |
+| S09 · Official course reference | [Line Management Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/) | 2026-09-26 | Current official course page, checked as a subject and delivery reference. No current selectable public tariff was established in the rendered page during this audit; do not infer availability from hidden conditional booking messages. Confirm an actual programme quote. The page describes trainer access and post-course resources including handouts, PDFs, reading and video links. |
+| S10 · Official course reference | [Time Management Course](https://www.impactfactory.com/programmes/management-skills-training/open-courses/time-management-course/) | 2026-09-26 | Current official course page, checked as a subject and delivery reference. No current selectable public tariff was established in the rendered page during this audit; do not infer availability from hidden conditional booking messages. Confirm an actual programme quote. |
+| S11 · Official course page | [Communicate with Impact — 5-Day Intensive Communication Course](https://www.impactfactory.com/programmes/communication-skills-training/communicate-with-impact/) | 2026-09-26 | Duration and £2,750/person excluding VAT; page directs readers to live booking information for current pricing. |
+| S12 · Official booking form | [Private Open Course Booking Form](https://www.impactfactory.com/private-open-course-booking-form/) | 2026-09-26 | Published private-course prices and delegate limits in 10.1. Read only; no form was submitted. Differences from embedded course data require quote confirmation. |
+| S13 · Official website | [Private Open Courses — Impact Factory](https://www.impactfactory.com/private-open-courses/) | 2026-09-26 | A private delivery of an open-course format is distinct from assuming a fully bespoke programme tariff. Page itself did not expose a numeric tariff in the inspected text. |
+| S14 · Research; original article abstract via PubMed | [Taylor, P. J., Russ-Eft, D. F., & Chan, D. W. L. (2005). A meta-analytic review of behavior modeling training](https://pubmed.ncbi.nlm.nih.gov/16060787/) | 2026-09-26 | *Journal of Applied Psychology*, 90(4), 692–709. DOI: 10.1037/0021-9010.90.4.692. Study count and transfer moderators verified in abstract. |
+| S15 · Research; original article abstract via PubMed | [Pan, S. C., & Rickard, T. C. (2018). Transfer of test-enhanced learning: Meta-analytic review and synthesis](https://pubmed.ncbi.nlm.nih.gov/29733621/) | 2026-09-26 | *Psychological Bulletin*, 144(7), 710–756. DOI: 10.1037/bul0000151. Experiment/participant counts and conditional transfer findings verified. |
+| S16 · Research; publisher full text | [Wisniewski, B., Zierer, K., & Hattie, J. (2020). The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full) | 2026-09-26 | *Frontiers in Psychology*, 10:3087; published 22 January 2020. DOI: 10.3389/fpsyg.2019.03087. Feedback-content and outcome limitations. |
+| S17 · Official technology documentation | [Moodle LMS features](https://docs.moodle.org/en/Features) | 2026-09-26 | LMS foundation reference, not a supplier selection or an Impact Factory fact. |
+| S18 · Official technology documentation | [Moodle Workplace multi-tenancy](https://docs.moodle.org/en/Multi-tenancy) | 2026-09-26 | Separate client workspaces and roles; Workplace is partner-delivered and distinct from ordinary Moodle LMS. |
+| D01 · Client discovery supplied by user | Abigail Brooks-Daw and Taylor discovery-call account in the task brief; no public URL | Received in this task; documented 2026-09-26 | All 16 supplied discovery points, including operating tools and approximate delivery/revenue mix. Call dates/transcripts not supplied; not verbatim quotations. |
+| C01 · Our calculations | Section 10.2; no external URL | Calculated 2026-09-26 | Annual-scale arithmetic using S06 as a qualified anchor and brief-supplied scenario inputs. |
+| C02 · Our calculations | Section 10.3; no external URL | Calculated 2026-09-26 | Requested assumed booking example plus separately attributed form-price comparison. |
+| P01 · Indicative demo and pilot costs | Latest client instruction and sections 13–14; no external URL | Proposed 2026-09-26 | Demo £2,500–£3,500 / 2–3 weeks; working pilot £7,500–£12,000 / around two months. Separate scopes, no confirmed quote or delivery promise; later pricing decided from results. |
+| P02 · Proposed concepts and fictional examples | Sections 5–9, 12–13, 15 and 17; no external URL | Proposed 2026-09-26 | Lightweight LMS, cross-course fictional enrolment counts, smart nudges, live AI persona/avatar/voice options and pilot scope are proposed concepts. No invented outcome targets or production-ready claims. |
 
 Research method: official business, offer, resources and course pages were prioritised; LinkedIn was treated as a separate self-published channel; original research abstracts/publisher text supplied the learning rationale. Where the web reader omitted dynamic data, public HTML and structured data were inspected directly. No private learner page, CRM, client system or internal financial record was accessed.
 
 ## 17. Exact information architecture for the interactive web proposal
 
-This is a **future build specification only**. Its audience is Impact Factory directors. It should work as a coherent reading experience and support a discussion about the pilot. The learning provider's identity and trainer role lead the story; MyPath appears in the operating/partnership explanation.
+The five-page experience keeps one director-level question per page. Main content stays compact; research, source details and implementation options open on demand.
 
-### 17.1 Page, navigation and content order
+| Route / navigation | Director’s question | Content and interaction |
+| --- | --- | --- |
+| / · 01 Overview | What are we exploring, and why here? | Human-led proposition; compact journey; three discovery points; qualified Taylor estimate; links to the journey and pilot proposal. |
+| /learner-journey/ · 02 Learner journey | What could a learner experience? | Six tabs: Prepare, Live, Remember, Practise, Apply, Continue. Preparation sharing starts unchecked; quiz has response-specific feedback; roleplay actor and evaluation are separate. Remember introduces approved videos, personalised lessons and reminders. Practise/Apply explain proposed live AI personas, optional avatars and licensed or consented instructor voices, with Text/Voice/Avatar format previews. No speech or video is generated. |
+| /connected-platform/ · 03 Learning platform | How would a lightweight LMS connect the courses? | Four-step enrol/prepare/revisit/continue flow. Learner, Company and Training team tabs. Learner has one account across two fictional course examples. Company dropdown selects all programmes or either programme and updates enrolment, attendance and participation totals. Training team illustrates shared preparation and content approval. Three audience benefits, optional LMS feature details and a vendor-neutral foundation note. |
+| /business-case/ · 04 Business case | How might this fit the business? | Four possible mechanisms; Annual scale / One booking calculators. Permanent limitations, qualified public prices, reset and optional nine-scenario table. |
+| /next-steps/ · 05 Pilot proposal | What are we proposing, what might it cost, and how do we decide? | Two visible price/timeline choices with selectable scope: concept demo £2,500–£3,500 / 2–3 weeks and working pilot £7,500–£12,000 / around two months. Default: demo. Then review results: refine, extend or stop. No long-term prices. Partnership and trust principles with optional detail. Closing ask: “Is this worth testing with one programme?” The existing URL remains valid; the visible label and metadata are Pilot proposal. |
 
-Use one proposal route, **`/impact-factory-digital-learning`**, with the following stable section IDs. The names below are the intended visible navigation labels. On mobile, use a compact section menu. Every section remains readable without using the interactive examples.
+### Navigation, evidence and boundaries
 
-| Order / anchor | Exact section heading | Required content | Interaction / next action |
-| --- | --- | --- | --- |
-| 01 · `#overview` | **Extend the Impact Factory experience** | One-sentence proposition; “Human trainer remains central”; source/access date; proposal status. | Primary link “Explore the learner journey” → `#journey`; secondary “Review the pilot” → `#pilot`. |
-| 02 · `#what-we-heard` | **What we heard** | Discovery themes: live learning, learner handoff, preparation, practice and operating capacity. | Expandable discovery notes from section 2, clearly attributed. |
-| 03 · `#business-today` | **The business this builds on** | Existing offer and a restrained set of verified public anchors, with the annual-volume qualification nearby. | “View source” opens the corresponding source detail. No historic-to-active-customer conversion. |
-| 04 · `#current-journey` | **Where the learner journey loses continuity** | Current-state map from section 3 and the core gap. | Tabs “Open courses” / “Tailored programmes”; tailored selected initially. Show the manager-to-learner handoff and existing trainer support. |
-| 05 · `#journey` | **One connected journey, led by people** | Six stages: BEFORE, LIVE, REMEMBER, PRACTISE, APPLY, CONTINUE; platform underneath. | Select a stage to reveal learner action, trainer role and remembered context. LIVE visually remains central; no automated progression. |
-| 06 · `#before` | **Arrive with a real goal** | Preparation concept, example question and what the trainer would see. | “Try the preparation example” opens a fictional example; show sharing choice and trainer-view preview. |
-| 07 · `#remember` | **A small interaction that brings learning back** | Explain notification versus learning activity; one A/B/C example. | Choose A/B/C → immediate prewritten feedback → optional fictional next action → reset. |
-| 08 · `#practise` | **A safe place to rehearse** | Alex scenario; three proposed difficulty levels; clear actor/evaluator separation. | “View roleplay example” plays a user-stepped, scripted text exchange; “End and review” opens separate feedback. Level 1 shown; Levels 2/3 labelled future options. |
-| 09 · `#apply` | **Help for tomorrow's conversation** | Proposed digital-coach concept and the context it could remember. | Three choices: “Review the framework”, “Plan the conversation”, “Practise the conversation”; each opens a prewritten example. “Contact a trainer” is described as a future service path. |
-| 10 · `#platform` | **A platform that remembers the journey** | Learner record, next action and human-help concept; boundaries with existing tools. | Switch “Learner view” / “Trainer view”; fictional records only, with sharing differences explained. |
-| 11 · `#company-view` | **Useful visibility for L&D** | Booking, delegate, attendance and activity examples; permission boundary beside the report. | Toggle “Programme overview” / “Participation”; use clearly labelled illustrative data. No individual chat or performance drill-down. |
-| 12 · `#business-case` | **What an extension could add** | Growth mechanisms and both calculation models; opportunity versus cost distinction. | Scenario controls specified in 17.3; formula and exclusions remain visible. |
-| 13 · `#learning-design` | **Why these learning activities** | Three concise evidence summaries from section 11 and explicit limits. | Source links; no AI-effectiveness claim or product outcome percentages. |
-| 14 · `#operating-model` | **Keep the human quality; make the operation manageable** | Roles, content approval, support and principal privacy/quality decisions. | Expand “Who does what” and “What we need to resolve”; risks have owners. |
-| 15 · `#pilot` | **Start with one programme** | Pilot scope, boundaries, sequence, measures and stop/revise/rollout gates. | Select “Scope”, “Evidence” or “Decision gates”; primary link “Review the pilot decisions” → `#next-decision`. |
-| 16 · `#commercial-options` | **Indicative options after the pilot** | Four internal ranges, subject-to-scope wording, allowance/exclusion notes; pilot first. | Expand an option to see scope variables. No checkout, tier recommendation badge or automatic annual commitment. |
-| 17 · `#partnership` | **Impact Factory leads the learning** | Impact Factory/MyPath responsibilities from section 15; methodology and client relationship remain with Impact Factory. | Readable responsibility table; no unsupported product badges or capabilities. |
-| 18 · `#next-decision` | **Agree the experiment** | Decisions: programme/cohort, learning owner, operator, content, permissions, budget cap and success criteria. | Local discussion checklist only. It records no commercial acceptance, sends no email and triggers no booking. |
-| 19 · `#sources` | **Sources, assumptions and open questions** | Full source register, public-figure corrections, research limits and unresolved operating inputs. | Filter by Official website / LinkedIn / Research / Discovery / Calculation / Proposal. Source details link to their original pages. |
+Shared active navigation, labelled mobile Menu/Sources controls with Escape support, previous/next links, direct URLs and browser back/forward. Native selects have visible chevrons, consistent borders and focus rings; segmented/tab choices have clear selected and hover states. Expandable details use visible disclosure controls. Pricing choices support arrow-key navigation and show both prices even while one scope is selected. The legacy /impact-factory-digital-learning/ route redirects to the overview. A searchable source drawer includes public facts, discovery, research, technology references, calculations and proposals. Source-specific links preserve publisher/date/limitations; closing restores focus.
 
-### 17.2 Proposal interaction rules
+The evidence taxonomy remains VERIFIED PUBLIC FACT, DISCOVERY-CALL FACT, ILLUSTRATIVE CALCULATION, PROPOSED CONCEPT and INDICATIVE ESTIMATE. All company dashboard counts are fictional course enrolments rather than unique learner totals. A company filter does not reveal private conversations, goals or AI assessments.
 
-Every demonstration must carry **“Illustrative concept — subject to Impact Factory approval”**. Scripted examples should also say **“Scripted example”**. Learner and company views use fictional information, visibly identified as such. A director should never mistake a concept screen for an existing MyPath feature or a real client record.
+This proposal is frontend-only. All example state is temporary; no learner data, audio or images are submitted, saved or generated. No LMS vendor is selected and no live learner service is installed. The future custom service would need separate implementation and acceptance checks. Local Next.js operation and later Vercel hosting remain supported, with no Sites dependency.
 
-Use user-controlled interactions without autoplay. The default proposal needs no account, microphone, live AI call, file upload or personal data entry. Keep example text preset; a later functional pilot has its own permission and data design. State must reset when the reader chooses “Reset example”. Proposal selections stay local and temporary unless a later build brief explicitly changes this.
+### Calculation rules
 
-Define the roleplay demo states as **Brief → In character → Simulation ended → Feedback → Retry/reset**. Feedback cannot appear inside Alex's in-character messages. If the page navigates away and back, preserve or reset predictably within the same viewing session and explain the behaviour.
+Annual: learner base × adoption / 100 × assumed price. Defaults: 5,000 / 10% / £50. Interface limits: integer learner base 0–1,000,000; adoption 0–100%; price £0–£10,000. Preserve fractional learner-equivalents until currency display. These input bounds are not projections.
 
-For each published fact, expose a source title, publisher type, URL and access date close to the claim. Calculations have an assumption label; discovery statements are not dressed as public statistics. Do not depend on hover for disclosures. Use keyboard-operable controls, readable text alternatives for journey diagrams, clear focus states and an accessible static version of every calculation. Avoid decorative motion that obscures the reasoning.
+Booking: participants × add-on price = addition; base + addition = new value; addition / base × 100 = uplift. Published £3,500/max-eight option is the default; £3,750/eight actual attendees remains a qualified assumption. Attendance 1–8; add-on £50/£100; uplift one decimal, GBP in UK notation.
 
-### 17.3 Exact calculator specification
+### Design and validation
 
-**Annual-scale view:** fixed base `5,000`, labelled “Illustrative learner scale from the current LinkedIn profile; actual annual volume to confirm”. Adoption segmented control: `10%`, `20%`, `30%`. Assumed price segmented control: `£50`, `£100`, `£200`. Initial selection: `10%` and `£50`, explicitly labelled an example, not a recommended case. Show adopted learners and gross sales; include the complete nine-cell table as a readable alternative.
-
-Formula: `learners = 5000 × adoption`; `grossSales = learners × price`. Display pounds with thousands separators and no implied profit result. Keep the exact gross-sales disclaimer from 10.2 visible alongside the result. The source detail must include the qualification about the retrospective LinkedIn post.
-
-**Booking view:** two clearly named bases: “Requested illustration: £3,750 with eight attendees” and “Published form comparison: £3,500 maximum-eight option; quote to confirm”. Default to the published form comparison. Participants default to `8`, adjustable to integer values `1–8`; add-on choices `£50` or `£100`. Show `addition = participants × price`, `total = base + addition`, and `uplift = addition/base × 100`, rounded to one decimal place. Explain that the live-course base remains fixed in this illustration when participation changes.
-
-At eight participants, expected outputs are those in 10.3. Label every result “Illustrative only; willingness to pay and current quote unconfirmed.” Do not portray the £3,750 base as the verified tariff for a maximum-eight course. Do not let a calculator result remove any price qualification or source note.
-
-### 17.4 Content and release checklist for a later build
-
-Use this strategy as the content source, with one maintained record per fact containing claim text, source ID, publisher type, access date and qualification. Maintain a separate assumptions record for prices, adoption, cohort sizes and prototype status so changes cannot silently turn assumptions into facts.
-
-Before a future proposal is shared, confirm: every required section is present; the calculator matches section 10; all demo data is fictional; the actor/evaluator states are separate; corporate views expose no sensitive individual data; limitations remain visible on mobile; source links work; and pricing appears after the learning journey and pilot rationale. Resolve any changes to the verified anchors in both the page and its source register.
-
-The next authorised output from this task is this strategy document. Building, publishing or integrating the interactive proposal is a separate step.
+Locally served DM Sans, warm white, charcoal, restrained accent, compact diagrams and fine dividers. Inspect default pages and new interaction states at 1440 × 1000, 1024 × 768, 768 × 1024 and 390 × 844. Verify company filtering, privacy boundaries, trainer view, AI format previews, demo/pilot scope selection, keyboard/focus handling, calculations and responsive layout. Run lint, types, unit/component/browser checks and a production build.

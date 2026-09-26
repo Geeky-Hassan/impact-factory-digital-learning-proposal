@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { annualScenario, bookingScenario } from '@/lib/calculations';
+import { annualScenario, bookingScenario, money } from '@/lib/calculations';
 
 describe('illustrative annual sales', () => {
   it.each([
@@ -37,4 +37,11 @@ describe('booking illustration', () => {
     expect(bookingScenario(3750, 9, 50)).toBeNull();
     expect(bookingScenario(0, 8, 50)).toBeNull();
   });
+});
+
+it('formats sterling with grouping and two decimal places when needed', () => {
+  expect(money(25000)).toBe('£25,000');
+  expect(money(50.5)).toBe('£50.50');
+  expect(money(611.325)).toBe('£611.33');
+  expect(money(0)).toBe('£0');
 });

@@ -1,1 +1,2 @@
-export { default } from '@/components/proposal';
+import { redirect } from 'next/navigation';
+export default function LegacyProposal() { redirect('/'); }

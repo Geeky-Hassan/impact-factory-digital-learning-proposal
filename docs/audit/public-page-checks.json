@@ -1,0 +1,44 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/conflict-management-course/",
+      "accessed": "2026-09-26",
+      "title": "Conflict Management and Difficult Conversations Course - London",
+      "prices": [],
+      "oneToOneMessageVisible": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/line-management-course/",
+      "accessed": "2026-09-26",
+      "title": "Line Management Course London UK - Enhanced Confidence",
+      "prices": [],
+      "oneToOneMessageVisible": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://www.impactfactory.com/programmes/management-skills-training/open-courses/time-management-course/",
+      "accessed": "2026-09-26",
+      "title": "Time Management Course London UK - Dynamic, Practical, Interactive",
+      "prices": [],
+      "oneToOneMessageVisible": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "url": "https://www.impactfactory.com/programmes/communication-skills-training/communicate-with-impact/",
+      "accessed": "2026-09-26",
+      "title": "Communicate with Impact | 5-Day Communication Course",
+      "prices": [
+        "£2,750+VAT"
+      ],
+      "oneToOneMessageVisible": false
+    }
+  }
+]

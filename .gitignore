@@ -9,3 +9,12 @@ dist/
 !.env.example
 coverage/
 .site-build-tmp/
+
+.vercel/
+test-results/
+playwright-report/
+docs/audit/before/
+docs/audit/screenshots/
+docs/audit/ux-screenshots/
+
+.cache/
